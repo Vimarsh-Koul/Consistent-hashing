@@ -1,0 +1,10 @@
+
+The code attempts to perform consistent hashing using node
+
+There are three server files server8000, server8001, server8002 that have the same piece of code 
+
+index.js is the main code
+it implements a middleware that performs consistent hashing and uses express-http-proxy to redirect
+    the request to the right server. 
+
+On top of this, we have configured nginx (nginx-config.txt)
